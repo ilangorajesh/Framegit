@@ -23,6 +23,9 @@ for (int i = 0; i < sheet.getPhysicalNumberOfRows(); i++) {
 		for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
 			Cell cell = row.getCell(j);
 			System.out.println(cell);
+			for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
+				Cell cell = row.getCell(j);
+				System.out.println(cell);
 		
 	}
 }
